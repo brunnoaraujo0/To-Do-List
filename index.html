@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="icon" href="img/icone.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+    
+    <div class="todo-container">
+        <img src="img/logo todo.png" alt="">
+        <header>
+            Gerenciador de Tarefas
+        </header>
+        <form id="todo-form">
+            <p>Adicione a sua tarefa:</p>
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="O que você vai fazer?"/>
+                <button type="submit">
+                    <span class="material-symbols-outlined">
+                        add
+                        </span>
+                </button>
+            </div>
+        </form>
+        <form id="edit-form" class="hide">
+            <p>Edite a sua tarefa:</p>
+            <div class="form-control">
+                <input type="text" id="edit-input"/>
+                <button type="submit">
+                    <span class="material-symbols-outlined">
+                        done_all
+                        </span>
+                </button>
+            </div>
+        </form>
+        <div id="toolbar">
+            <div id="search">
+                <h4>Pesquisar</h4>
+                <form>
+                    <input type="text" id="search-input" placeholder="Buscar"/>
+                    <button id="erase-button">
+                        <span class="material-symbols-outlined">
+                            backspace
+                            </span>
+                    </button>
+                </form>
+            </div>
+            <div id="filter">
+                <h4>Filtrar:</h4>
+                <select id="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="done">Feitos</option>
+                    <option value="todo">A fazer</option>
+                </select>
+            </div>
+        </div>
+        <div id="todo-list">
+            <div class="todo">
+                <h3>Estou fazendo alguma coisa...</h3>
+                <button class="finish-todo">
+                    <span class="material-symbols-outlined">
+                        done
+                        </span>
+                </button>
+                <button class="edit-todo">
+                    <span class="material-symbols-outlined">
+                        edit
+                        </span>
+                </button>
+                <button class="remove-todo">
+                    <span class="material-symbols-outlined">
+                        delete
+                        </span>
+                </button>
+            </div>
+            <div class="todo">
+                <h3>Estou fazendo alguma coisa...</h3>
+                <button class="finish-todo">
+                    <span class="material-symbols-outlined">
+                        done
+                        </span>
+                </button>
+                <button class="edit-todo">
+                    <span class="material-symbols-outlined">
+                        edit
+                        </span>
+                </button>
+                <button class="remove-todo">
+                    <span class="material-symbols-outlined">
+                        delete
+                        </span>
+                </button>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
