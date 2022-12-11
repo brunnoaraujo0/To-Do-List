@@ -77,6 +77,8 @@ select {
 #todo-form, #edit-form {
     padding: 1rem;
     border-bottom: 1px solid #b3b3b3;
+    
+    width: 100%;
 }
 
 #todo-form p,
@@ -193,4 +195,8 @@ select {
 }
 .todo button:hover > .material-symbols-outlined.feito{
     color: #56C792;
+}
+
+#sem-tarefa {
+    display: flex;
 }
